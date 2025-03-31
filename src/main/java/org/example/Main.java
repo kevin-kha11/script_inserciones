@@ -11,9 +11,9 @@ import java.sql.*;
 public class Main {
     public static void main(String[] args) {
         // Datos de conexión a la base de datos
-        String url = "jdbc:mysql://127.0.0.1:3306/db_plantilla";
-        String username = "root";  // Cambia el usuario según tu configuración
-        String password = "nocewey";  // Cambia la contraseña según tu configuración
+        String url = "jdbc:mysql://host:port/db";
+        String username = "";  // Cambia el usuario según tu configuración
+        String password = "";  // Cambia la contraseña según tu configuración
 
         // Ruta del archivo Excel
         String filePath = "src\\main\\java\\org\\example\\a.xlsx";  // Cambia a la ruta de tu archivo

@@ -47,7 +47,7 @@ public class Main {
             }
 
             workbook.close();
-            System.out.println("Datos insertados correctamente.");
+            System.out.println("Datos insertados correctamente."); //nos indica el fine exitoso del script
         } catch (IOException | SQLException e) {
             e.printStackTrace();
         }
